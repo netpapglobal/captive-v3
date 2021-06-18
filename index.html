@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--====================================================================================================================================-->
+        <title>WIFI LANDING PAGE</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <link rel="stylesheet" type="text/css" href="css/nav.css" />
+        <link rel="stylesheet" type="text/css" href="css/sidebar.css" />
+            <!-- Scrollbar Custom CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+        <script src="js/main.js" type="text/js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <!--=================================SIDEBAR CONTENTS==================================================-->
+            <nav id="sidebar">
+                <div id="dismiss">
+                    <i class="fas fa-arrow-left"></i>
+                </div>
+                <div class="sidebar-header">
+                    <h3>NETPAP WIFI</h3>
+                </div>
+                <ul class="list-unstyled components">
+                    <p>GET WIFI</p>
+                    <li class="active">
+                        <a href="#homeSubmenu" data-bs-toggle="collapse"
+                                        data-bs-target="#homeSubmenu" aria-expanded="false" aria-controls="homeSubmenu">Home</a>
+                        <ul class="collapse list-unstyled" id="homeSubmenu">
+                            <li>
+                                <a href="#">Home 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Home 2</a>
+                            </li>
+                            <li>
+                                <a href="#">Home 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#pageSubmenu" data-bs-toggle="collapse"
+                                        data-bs-target="#pageSubmenu" aria-expanded="false" aria-controls="pageSubmenu">Pages</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu">
+                            <li>
+                                <a href="#">Page 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Page 2</a>
+                            </li>
+                            <li>
+                                <a href="#">Page 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+
+                <ul class="list-unstyled CTAs">
+                    <li>
+                        <a href="#" class="download">OPTION 1</a>
+                    </li>
+                    <li>
+                        <a href="#" class="article">BACK TO HOME</a>
+                    </li>
+                </ul>
+            </nav>
+            <!--=================================END SIDEBAR CONTENTS===============================================-->
+
+            <!--=================================MAIN CONTENT==================================================-->
+            <div id="content">
+                <nav class="floating-menu">
+                    <ul class="main-menu">
+                        <li>
+                            <a class="ripple" id="sidebarCollapse">
+                                <i class="fas fa-bars fa-lg"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="menu-bg"></div>
+                </nav>
+                <!--=================================RESPONSIVE IMAGE==================================================-->
+                <div class="row" style="--bs-gutter-x: 0rem;">
+                    <div class="col-sm-12">
+                        <div align="center" style="height:400px;">
+                            <a href="" target="_blank">
+                                <img src="router.jpg" alt=""
+                                     class="d-block img-fluid"  width="100%" style="height:100%">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--=================================END RESPONSIVE IMAGE==============================================-->
+
+                <!--=================================DATA PACK==============================================-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 mb-4">
+                            <br>
+                            <div align="center" class="bg-white p-4 rounded shadow-sm">
+                                <h4 class="mb-4">DATA PACKS</h4>
+                                <!-- lg circle buttons-->
+                                <div class="row">
+                                    <div class="col-6 col-md-3">
+                                        <button class="btn btn-success btn-circle btn-circle-xl m-2 position-relative" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#data1" aria-expanded="false" aria-controls="data1">
+<!--                                            <span class="badge position-absolute top-0 left-100 translate-middle bg-warning">000/=</span>-->
+                                            <h6>7MB</h6>
+                                            <h6>000/=</h6>
+                                            <h6>Monthly</h6>
+                                        </button>
+                                    </div>
+                                    <div class="collapse" id="data1">
+                                        <div class="card card-body">
+                                            THIS IS SOME INFORMATION ABOUT THE 7MB PACK
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <button class="btn btn-success btn-circle btn-circle-xl m-2 position-relative" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#data2" aria-expanded="false" aria-controls="data2">
+<!--                                            <span class="badge position-absolute top-0 left-100 translate-middle bg-warning">000/=</span>-->
+                                            <h6>15MB</h6>
+                                            <h6>000/=</h6>
+                                            <h6>Monthly</h6>
+                                        </button>
+                                    </div>
+                                    <div class="collapse" id="data2">
+                                        <div class="card card-body">
+                                            THIS IS SOME INFORMATION ABOUT THE 15MB PACK
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <button class="btn btn-info btn-circle btn-circle-xl m-2 position-relative" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#data3" aria-expanded="false" aria-controls="data3">
+<!--                                            <span class="badge position-absolute top-0 left-100 translate-middle bg-warning">000/=</span>-->
+                                            <h6>30MB</h6>
+                                            <h6>000/=</h6>
+                                            <h6>Monthly</h6>
+                                        </button>
+                                    </div>
+                                    <div class="collapse" id="data3">
+                                        <div class="card card-body">
+                                            THIS IS SOME INFORMATION ABOUT THE 30MB PACK
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <button class="btn btn-info btn-circle btn-circle-xl m-2 position-relative" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#data4" aria-expanded="false" aria-controls="data4">
+<!--                                            <span class="badge position-absolute top-0 left-100 translate-middle bg-warning">200/=</span>-->
+                                            <h6>120MB</h6>
+                                            <h6>000/=</h6>
+                                            <h6>Monthly</h6>
+                                        </button>
+                                    </div>
+                                    <div class="collapse" id="data4">
+                                        <div class="card card-body ">
+                                            THIS IS SOME INFORMATION ABOUT THE 120MB PACK
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <button class="btn btn-primary btn-circle btn-circle-xl m-2 position-relative" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#data5" aria-expanded="false" aria-controls="data5">
+<!--                                            <span class="badge position-absolute top-0 left-100 translate-middle bg-warning">200/=</span>-->
+                                            <h6>300MB</h6>
+                                            <h6>000/=</h6>
+                                            <h6>Monthly</h6>
+                                        </button>
+                                    </div>
+                                    <div class="collapse" id="data5">
+                                        <div class="card card-body">
+                                            THIS IS SOME INFORMATION ABOUT THE 300MB PACK
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <button class="btn btn-primary btn-circle btn-circle-xl m-2 position-relative" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#data6" aria-expanded="false" aria-controls="data6">
+<!--                                            <span class="badge position-absolute top-0 left-100 translate-middle bg-warning">200/=</span>-->
+                                            <h6>500MB</h6>
+                                            <h6>000/=</h6>
+                                            <h6>Monthly</h6>
+                                        </button>
+                                    </div>
+                                    <div class="collapse" id="data6">
+                                        <div class="card card-body ">
+                                            THIS IS SOME INFORMATION ABOUT THE 500MB PACK
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <button class="btn btn-warning btn-circle btn-circle-xl m-2 position-relative" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#data7" aria-expanded="false" aria-controls="data7">
+<!--                                            <span class="badge position-absolute top-0 left-100 translate-middle bg-warning">200/=</span>-->
+                                            <h6>1GB</h6>
+                                            <h6>000/=</h6>
+                                            <h6>Monthly</h6>
+                                        </button>
+                                    </div>
+                                    <div class="collapse" id="data7">
+                                        <div class="card card-body ">
+                                            THIS IS SOME INFORMATION ABOUT THE 1GB PACK
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <button class="btn btn-warning btn-circle btn-circle-xl m-2 position-relative" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#data8" aria-expanded="false" aria-controls="data8">
+<!--                                            <span class="badge position-absolute top-0 left-100 translate-middle bg-warning">200/=</span>-->
+                                            <h6>2GB</h6>
+                                            <h6>000/=</h6>
+                                            <h6>Monthly</h6>
+                                        </button>
+                                    </div>
+                                    <div class="collapse" id="data8">
+                                        <div class="card card-body ">
+                                            THIS IS SOME INFORMATION ABOUT THE 2GB PACK
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--=================================END DATA PACKS==============================================-->
+
+                <!--=================================VOUCHER AND LOGIN AREA=================================================-->
+                <div class="container">
+                    <div class="col-sm-12">
+                        <div style="height:400px;">
+                            <ul class="nav nav-pills mb-3 pr-3" id="pills-tab" role="tablist">
+                                <li class="nav-item col-6" role="presentation">
+                                    <button class="btn btn-block nav-link active" style="width:100%" id="pills-voucher-tab" data-bs-toggle="pill" data-bs-target="#pills-voucher"
+                                                type="button" role="tab" aria-controls="pills-voucher" aria-selected="true">VOUCHER</button>
+                                </li>
+                                <li class="nav-item col-6" role="presentation">
+                                    <button class="btn btn-block nav-link" style="width:100%" id="pills-login-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-login" type="button" role="tab" aria-controls="pills-login" aria-selected="false">LOGIN</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-voucher" role="tabpanel" aria-labelledby="pills-voucher-tab">
+                                    <form class="login100-form validate-form" method=post >
+                                        <br>
+                                        <h3 align="center" class="green-font font-bold">VOUCHER CODE</h3> <br>
+                                        <div class="separ"></div>
+                                        <div class="container p-2" align="center">
+                                            <i class="fa fa-wallet"></i>
+                                            <label for="voucher">VOUCHER</label>
+                                            <input id="voucher" type="text" class="form-control" placeholder="Voucher Code">
+                                            <div>
+                                                <br>
+                                                <input type="submit" class="btn green btn-lg btn-block form-control" value="ENTER">
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="pills-login" role="tabpanel" aria-labelledby="pills-login-tab">
+                                    <form class="login100-form validate-form" method=post >
+                                    <br>
+                                    <h3 align="center" class="green-font font-bold">LOGIN FORM</h3> <br>
+                                        <div class="separ"></div>
+                                    <div class="container p-2" align="center">
+                                        <i class="fa fa-users"></i>
+                                        <label for="username">Username</label>
+                                        <input id="username" type="text" class="form-control" placeholder="Username">
+                                        <br>
+                                        <i class="fa fa-key"></i>
+                                        <label for="pass">Password</label>
+                                        <input id="pass" type="password" class="form-control" placeholder="Password">
+                                        <div>
+                                        <br>
+                                        <input type="submit" class="btn green btn-lg btn-block form-control" value="LOGIN">
+                                            <!--<i class="fas fa-share-square"></i>-->
+                                    </div>
+                                    </div>
+                                    <br>
+                                </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--====================================END VOUCHER AND LOGIN AREA==========================================-->
+
+                <!--====================================TRIAL AND PACKAGES==============================================-->
+                <div class="container">
+                    <form action="" method="">
+                        <div class="row ">
+                            <div class="col-4">
+                                <div class="card green" align="center">
+                                      <div class="card-body">
+                                          <h5 class="card-title">
+                                              <input type="submit" class="green border-0" value="TRIAL"></h5>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="col-8" style="float:right" >
+                                <div class="card green" align="center">
+                                      <div class="card-body" >
+                                          <h5 class="card-title">
+                                              <input type="number" class="green border-0 p-0" style="width:75%" value="0712345678">
+                                          </h5>
+
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <br>
+                    <div class="separ"></div>
+                    <div class="row" align="center">
+                        <h4 class="mb-4">PURCHASE DATA PACKAGES</h4>
+                        <div class="table">
+                            <table class="table table-borderless">
+                                <tr>
+                                    <td> DATA PACK 1</td>
+                                    <td>
+                                        <button class="border-0 green btn-block" style="width:100%" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#tpack1" aria-expanded="false" aria-controls="tpack1"><i class="fa fa-angle-down"></i></button>
+                                    </td>
+                                </tr>
+                                <td colspan="2">
+                                    <div class="collapse" id="tpack1">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                THIS IS SOME INFORMATION ABOUT THE 7MB PACK
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="separ"></div>
+                                                <button class="btn btn-outline-info">BUY</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <tr>
+                                    <td> DATA PACK 2</td>
+                                    <td>
+                                        <button class="border-0 green btn-block" style="width:100%" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#tpack2" aria-expanded="false" aria-controls="tpack2"><i class="fa fa-angle-down"></i></button>
+                                    </td>
+                                </tr>
+                                <td colspan="2">
+                                    <div class="collapse" id="tpack2">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                THIS IS SOME INFORMATION ABOUT THE 7MB PACK
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="separ"></div>
+                                                <button class="btn btn-outline-info">BUY</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <tr>
+                                    <td> DATA PACK 3</td>
+                                    <td>
+                                        <button class="border-0 green btn-block" style="width:100%" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#tpack3" aria-expanded="false" aria-controls="tpack3"><i class="fa fa-angle-down"></i></button>
+                                    </td>
+                                </tr>
+                                <td colspan="2">
+                                    <div class="collapse" id="tpack3">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                THIS IS SOME INFORMATION ABOUT THE 7MB PACK
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="separ"></div>
+                                                <button class="btn btn-outline-info">BUY</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="separ"></div>
+                <!--========================================TRIAL AND PACKAGES==========================================-->
+
+                <!--====================================RSS FEED==============================================-->
+                <div class="container" align="center">
+                    <h4 class="mb-4">RSS FEED</h4>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-2">
+                            <div class="card" style="width: 20rem;">
+                                  <img src="water.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                      <h5 class="card-title">Heading Title</h5>
+                                      <div class="card-body" style="height:200px;overflow-y:hidden;">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                            Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      </div>
+                                      <a href="#" class="btn green mt-2">Read More...</a>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6  col-sm-12 mb-2">
+                            <div class="card" style="width: 20rem;">
+                                  <img src="water.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                      <h5 class="card-title">Heading Title</h5>
+                                      <div class="card-body" style="height:200px;overflow-y:hidden;">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      </div>
+                                      <a href="#" class="btn green mt-2">Read More...</a>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6  col-sm-12 mb-2">
+                            <div class="card" style="width: 20rem;">
+                                  <img src="water.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                      <h5 class="card-title">Heading Title</h5>
+                                      <div class="card-body" style="height:200px;overflow-y:hidden;">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      </div>
+                                      <a href="#" class="btn green mt-2">Read More...</a>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6  col-sm-12 mb-2">
+                            <div class="card" style="width: 20rem;">
+                                  <img src="water-surface.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                      <h5 class="card-title">Heading Title</h5>
+                                      <div class="card-body" style="height:200px;overflow-y:hidden;">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      </div>
+                                      <a href="#" class="btn green mt-2">Read More...</a>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6  col-sm-12 mb-2">
+                            <div class="card" style="width: 20rem;">
+                                  <img src="water-surface.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                      <h5 class="card-title">Heading Title</h5>
+                                      <div class="card-body" style="height:200px;overflow-y:hidden;">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      </div>
+                                      <a href="#" class="btn green mt-2">Read More...</a>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-2">
+                            <div class="card" style="width: 20rem;">
+                                  <img src="water-surface.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                      <h5 class="card-title">Heading Title</h5>
+                                      <div class="card-body" style="height:200px;overflow-y:hidden;">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      </div>
+                                      <a href="#" class="btn green mt-2">Read More...</a>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--====================================END RSS FEED==========================================-->
+
+                <!--==================================FOOTER==============================================-->
+                <footer>
+                    <!-- Copyright -->
+                    <div class="footer-copyright text-center py-3">© 2021 Copyright:
+                        <a href="" target="_blank">NAME</a>
+                        <footer>CONTACT via: <a href="mailto:">EMAIL</a></footer>
+                    </div>
+                    <!-- End Copyright -->
+                </footer>
+                <!--==============================END FOOTER==============================================-->
+            </div>
+            <!--=================================END MAIN CONTENT==============================================-->
+        </div>
+        <div class="overlay"></div>
+        <br> <br>
+
+        <!--====================================================================================================================================-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <!--====================================================================================================================================-->
+
+        <!-- jQuery Custom Scroller CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#sidebar").mCustomScrollbar({
+                    theme: "minimal"
+                });
+
+                $('#dismiss, .overlay').on('click', function () {
+                    $('#sidebar').removeClass('active');
+                    $('.overlay').removeClass('active');
+                });
+
+                $('#sidebarCollapse').on('click', function () {
+                    $('#sidebar').addClass('active');
+                    $('.overlay').addClass('active');
+                    $('.collapse.in').toggleClass('in');
+                    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                });
+            });
+        </script>
+    </body>
+</html>
+
