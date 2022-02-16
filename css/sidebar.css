@@ -20,12 +20,14 @@ a:focus {
 }
 
 .navbar {
-    padding: 15px 10px;
+    padding: none;
     background: #fff;
-    border: none;
+    border: none; 
     border-radius: 0;
     margin-bottom: 40px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    color:#444;
+    border-bottom:1px solid #b2b2b2 !important;
 }
 
 .navbar-btn {
