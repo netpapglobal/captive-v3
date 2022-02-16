@@ -91,3 +91,28 @@ div::-webkit-scrollbar {
 .left-50{
     left:50%
 }
+.div {
+    width: 70px;
+    height: 300px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  p.groove {border-style: groove;}
+
+  form {
+    border: 3px solid #f1f1f1;
+  }
+  .circle {
+    /* (A) SAME WIDTH & HEIGHT - SQUARE */
+    width: 200px;
+    height: 200px;
+   
+    /* (B) 50% RADIUS = CIRCLE */
+    border-radius: 50%;
+   
+    /* (C) BACKGROUND COLOR */
+    background: #bcd6ff;
+  }
+  .button2 {background-color: #008CBA;} 
